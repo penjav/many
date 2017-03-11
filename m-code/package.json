@@ -4,7 +4,7 @@
   "description": "Generated with Eclipse npm Tools",
   "main": "mook.js",
   "scripts": {
-    "start": "node mook"
+    "start": "node mook.js"
   },
   "dependencies":{
 	  "express":"^4.15.2",
@@ -14,6 +14,15 @@
   },
   "engine":{
 	  "node":"7.3.0"
+  },
+  "repository":{
+	  "type":"git",
+	  "url":"https://github.com/penjav/many.git"
+  },
+  "keywords":{
+	"node",
+	"heroku",
+	"express"
   },
   "author": "Logan",
   "license": "ISC"
