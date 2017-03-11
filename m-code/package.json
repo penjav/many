@@ -13,7 +13,7 @@
 	  "nonce":"^1.0.4"
   },
   "engine":{
-	  "node":"6.10.0"
+	  "node":"7.3.0"
   },
   "author": "Logan",
   "license": "ISC"
