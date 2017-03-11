@@ -19,7 +19,7 @@ koo.use(express.static(path.resolve(__dirname,'/assets')));
 
 //set root router to render the home page.
 koo.get('/',function(req,res){
-	res.render('mock-main');
+	res.render('mock-main.ejs');
 });
 
 http.createServer(koo).listen(koo.get('port'),function(req,res){
