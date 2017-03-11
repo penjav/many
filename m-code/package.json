@@ -12,6 +12,9 @@
 	  "helmet":"^3.4.0",
 	  "nonce":"^1.0.4"
   },
+  "engine":{
+	  "node":">=6.10.0"
+  },
   "author": "Logan",
   "license": "ISC"
 }
