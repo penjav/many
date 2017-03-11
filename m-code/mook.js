@@ -7,7 +7,7 @@ var logger = require("morgan");
 var koo = express();
 
 // set evironment for deployment
-koo.set('port',process.env.PORT || 3000);
+koo.set('port',process.env.PORT || 5000);
 koo.set('view engine','ejs');                         // set view engine as ejs
 koo.set('views',path.resolve(__dirname,'mockView')); // set view directory 
 
@@ -20,6 +20,4 @@ koo.get('/',function(req,res){
 	res.render('mock-main');
 });
 
-koo.listen(koo.get('port'),function(){
-	console.log("started on on port", koo.get('port'));
-});
+koo.listen(process.env.PORT || 5000);
