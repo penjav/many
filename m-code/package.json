@@ -10,8 +10,7 @@
 	  "express":"^4.15.2",
 	  "ejs":"^2.5.5",
 	  "helmet":"^3.4.0",
-	  "nonce":"^1.0.4",
-	  "uuid":"^1.4.7"
+	  "nonce":"^1.0.4"
   },
   "author": "Logan",
   "license": "ISC"
