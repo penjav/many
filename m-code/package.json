@@ -4,7 +4,7 @@
   "description": "Generated with Eclipse npm Tools",
   "main": "mook.js",
   "scripts": {
-    "start": "node mook.js"
+    "start": "node mook"
   },
   "dependencies":{
 	  "express":"^4.15.2",
