@@ -1,1 +1,1 @@
-worker: node mook.js
+web: node mook.js
