@@ -20,4 +20,6 @@ koo.get('/',function(req,res){
 	res.send('mock-main');
 });
 
-koo.listen(process.env.PORT || 5000);
+koo.listen(koo.get('port',function(){
+	console.log("server is running at",koo.get('port'));
+}));
