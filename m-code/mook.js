@@ -4,6 +4,8 @@
 var express = require("express");
 var path = require("path");
 var logger = require("morgan");
+var http = require("http");
+// instantiate express
 var koo = express();
 
 // set evironment for deployment
@@ -17,9 +19,9 @@ koo.use(express.static(path.resolve(__dirname,'assets')));
 
 //set root router to render the home page.
 koo.get('/',function(req,res){
-	res.send('mock-main');
+	res.render('mock-main');
 });
 
-koo.listen(koo.get('port',function(){
-	console.log("server is running at",koo.get('port'));
-}));
+http.createServer(koo).listen(koo.get('port'),function(req,res){
+	console.log('server on ',koo.get('port'));
+});
