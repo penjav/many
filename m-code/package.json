@@ -19,11 +19,6 @@
 	  "type":"git",
 	  "url":"https://github.com/penjav/many.git"
   },
-  "keywords":{
-	"node",
-	"heroku",
-	"express"
-  },
   "author": "Logan",
   "license": "ISC"
 }
